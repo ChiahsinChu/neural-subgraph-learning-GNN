@@ -2,7 +2,8 @@
 
 ## Modifications
 
-> Original documentation can be found after this part.
+> Documentation for the original project can be found after this part.
+> Website for the original project is [here](https://snap.stanford.edu/frequent-subgraph-mining/).
 
 ### Installation
 
@@ -18,7 +19,7 @@ python -m nsl.custom_dataset.decoder --dataset=examples/test_dataset --node_anch
 ```
 **TO DO LIST**
 - [ ] add entrypoint in `setup.py` (call function in the command line)
-
+- [ ] add arg for custom save path
 
 ---
 Neural Subgraph Learning (NSL) is a general library that implements various tasks related to
