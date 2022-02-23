@@ -21,7 +21,7 @@ from deepsnap.graph import Graph as DSGraph
 #import orca
 from torch_scatter import scatter_add
 
-from common import utils
+from nsl.common import utils
 
 AUGMENT_METHOD = "concat"
 FEATURE_AUGMENT, FEATURE_AUGMENT_DIMS = [], []

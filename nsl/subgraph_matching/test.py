@@ -1,4 +1,4 @@
-from common import utils
+from nsl.common import utils
 from collections import defaultdict
 from datetime import datetime
 from sklearn.metrics import roc_auc_score, confusion_matrix

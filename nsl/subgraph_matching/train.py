@@ -29,9 +29,9 @@ from torch_geometric.datasets import TUDataset
 import torch_geometric.utils as pyg_utils
 import torch_geometric.nn as pyg_nn
 
-from common import data
-from common import models
-from common import utils
+from nsl.common import data
+from nsl.common import models
+from nsl.common import utils
 if HYPERPARAM_SEARCH:
     from test_tube import HyperOptArgumentParser
     from subgraph_matching.hyp_search import parse_encoder

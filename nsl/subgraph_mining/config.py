@@ -1,5 +1,5 @@
 import argparse
-from common import utils
+from nsl.common import utils
 
 def parse_decoder(parser):
     dec_parser = parser.add_argument_group()

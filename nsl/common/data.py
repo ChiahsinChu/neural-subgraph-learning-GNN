@@ -21,9 +21,9 @@ from tqdm import tqdm
 import queue
 import scipy.stats as stats
 
-from common import combined_syn
-from common import feature_preprocess
-from common import utils
+from nsl.common import combined_syn
+from nsl.common import feature_preprocess
+from nsl.common import utils
 
 def load_dataset(name):
     """ Load real-world datasets, available in PyTorch Geometric.

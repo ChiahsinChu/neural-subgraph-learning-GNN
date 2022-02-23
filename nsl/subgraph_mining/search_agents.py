@@ -17,12 +17,12 @@ import torch_geometric.utils as pyg_utils
 import torch_geometric.nn as pyg_nn
 from matplotlib import cm
 
-from common import data
-from common import models
-from common import utils
-from common import combined_syn
-from subgraph_mining.config import parse_decoder
-from subgraph_matching.config import parse_encoder
+from nsl.common import data
+from nsl.common import models
+from nsl.common import utils
+from nsl.common import combined_syn
+from nsl.subgraph_mining.config import parse_decoder
+from nsl.subgraph_matching.config import parse_encoder
 
 import matplotlib.pyplot as plt
 

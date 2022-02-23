@@ -13,7 +13,7 @@ import random
 import scipy.stats as stats
 from tqdm import tqdm
 
-from common import feature_preprocess
+from nsl.common import feature_preprocess
 
 def sample_neigh(graphs, size):
     ps = np.array([len(g) for g in graphs], dtype=np.float)

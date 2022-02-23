@@ -10,8 +10,8 @@ import torch.nn.functional as F
 import torch_geometric.nn as pyg_nn
 import torch_geometric.utils as pyg_utils
 
-from common import utils
-from common import feature_preprocess
+from nsl.common import utils
+from nsl.common import feature_preprocess
 
 # GNN -> concat -> MLP graph classification baseline
 class BaselineMLP(nn.Module):

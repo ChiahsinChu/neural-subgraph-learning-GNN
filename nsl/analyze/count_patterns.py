@@ -18,10 +18,10 @@ import torch_geometric.utils as pyg_utils
 import torch_geometric.nn as pyg_nn
 from matplotlib import cm
 
-from common import data
-from common import models
-from common import utils
-from subgraph_mining import decoder
+from nsl.common import data
+from nsl.common import models
+from nsl.common import utils
+from nsl.subgraph_mining import decoder
 
 from tqdm import tqdm
 import matplotlib.pyplot as plt

@@ -1,5 +1,5 @@
 import argparse
-from common import utils
+from nsl.common import utils
 
 def parse_encoder(parser, arg_str=None):
     enc_parser = parser.add_argument_group()
