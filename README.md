@@ -1,5 +1,26 @@
-# Neural Subgraph Learning Library
+# Neural Subgraph Learning Library (modified by Jia-Xin Zhu)
 
+## Modifications
+
+> Original documentation can be found after this part.
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+pip install -e .
+```
+
+### Frequent Subgraph Mining with Local Dataset
+
+```bash
+python -m nsl.custom_dataset.decoder --dataset=/path/to/dir --node_anchored --out_path=output_dir
+```
+**TO DO LIST**
+- [ ] add entrypoint in `setup.py` (call function in the command line)
+
+
+---
 Neural Subgraph Learning (NSL) is a general library that implements various tasks related to
 learning of subgraph relations.
 
