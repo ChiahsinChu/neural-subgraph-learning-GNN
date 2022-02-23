@@ -14,7 +14,7 @@ pip install -e .
 ### Frequent Subgraph Mining with Local Dataset
 
 ```bash
-python -m nsl.custom_dataset.decoder --dataset=/path/to/dir --node_anchored --out_path=output_dir
+python -m nsl.custom_dataset.decoder --dataset=examples/test_dataset --node_anchored
 ```
 **TO DO LIST**
 - [ ] add entrypoint in `setup.py` (call function in the command line)
