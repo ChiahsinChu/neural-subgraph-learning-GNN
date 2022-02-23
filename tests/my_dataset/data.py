@@ -94,6 +94,7 @@ class LocalDataset(TUDataset):
             os.makedirs(output_dir)
         for found_file in found_files:
             fname = os.path.basename(found_file)
+            fname = name + '_' + fname
             shutil.copy(found_file, os.path.join(output_dir, fname))
 
     def download(self):
